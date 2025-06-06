@@ -11,5 +11,25 @@ if (myBudget >= macPrice) {
 }
 
 // api BaseAudioContextfunchtion write
+// write async fuc, arrow fuc, api calling using  axios
 
-const res = await axios.get(`${apiBase}/category`, getTokenConfig())
+const writeAsync = async () => {
+  try {
+    const response = await axios.get(`${apiBase}/login`, getToken());
+    console.log("response", response);
+  } catch (error) {
+    console.log("error", error);
+  }
+};
+writeAsync();
+
+const age = 19;
+
+const canVote = age >= 18 ? "you are voter" : "you are not voter";
+console.log("Voter status", canVote);
+
+if (age >= 18) {
+  console.log("You are new voter");
+} else {
+  console.log("your are not voter");
+}
