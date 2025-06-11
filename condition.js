@@ -23,7 +23,7 @@ if (myBudget >= macPrice) {
 // };
 // writeAsync();
 
-const age = 16;
+const age = 18;
 const hadID = true;
 
 // const canVote = age >= 18 ? "you are voter" : "you are not voter";
@@ -40,3 +40,5 @@ if (age >= 18 && hadID) {
 } else {
   console.log("you can not go to voting room");
 }
+
+
