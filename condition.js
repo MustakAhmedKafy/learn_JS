@@ -11,20 +11,36 @@ if (myBudget >= macPrice) {
 }
 
 // api BaseAudioContextfunchtion write
+// write async fuc, arrow fuc, api calling using  axios
 
-const hello = () => {
-  console.log("Hellow World");
-};
+// const writeAsync = async () => {
+//   try {
+//     const response = await axios.get(`${apiBase}/login`, getToken());
+//     console.log("response", response);
+//   } catch (error) {
+//     console.log("error", error);
+//   }
+// };
+// writeAsync();
 
-hello();
+const age = 100;
+const hadID = true;
 
-const asyncFunc = async () => {
-  try {
-    console.log("This is async funtion");
-    const res = await axios.get(`${apiBase}/login`, getToken());
-  } catch (error) {
-    console.log(error);
-  }
-};
+// const canVote = age >= 18 ? "you are voter" : "you are not voter";
+// console.log("Voter status", canVote);
 
-asyncFunc();
+// if (age >= 18) {
+//   console.log("You are new voter");
+// } else {
+//   console.log("your are not voter");
+// }
+
+if (age>=100){
+  console.log('you are senior citizen');
+}else if(age >= 100 && hadID) {
+  console.log("you can enter the voting room");
+} else {
+  console.log("you can not go to voting room");
+}
+
+
