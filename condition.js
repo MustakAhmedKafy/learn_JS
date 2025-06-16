@@ -12,4 +12,19 @@ if (myBudget >= macPrice) {
 
 // api BaseAudioContextfunchtion write
 
-const res = await axios.get(`${apiBase}/category`, getTokenConfig())
+const hello = () => {
+  console.log("Hellow World");
+};
+
+hello();
+
+const asyncFunc = async () => {
+  try {
+    console.log("This is async funtion");
+    const res = await axios.get(`${apiBase}/login`, getToken());
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+asyncFunc();
