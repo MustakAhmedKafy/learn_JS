@@ -23,8 +23,8 @@ if (myBudget >= macPrice) {
 // };
 // writeAsync();
 
-// const age = 100;
-// const hadID = true;
+const age = 100;
+const hadID = true;
 
 // const canVote = age >= 18 ? "you are voter" : "you are not voter";
 // console.log("Voter status", canVote);
@@ -35,12 +35,12 @@ if (myBudget >= macPrice) {
 //   console.log("your are not voter");
 // }
 
-if (age>=100){
-  console.log('you are senior citizen');
-}else if(age >= 100 && hadID) {
+if (age >= 100) {
+  console.log("you are senior citizen");
+} else if (age >= 100 && hadID) {
   console.log("you can enter the voting room");
 } else {
   console.log("you can not go to voting room");
 }
 
-
+console.log("age", age);
