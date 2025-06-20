@@ -23,8 +23,8 @@ if (myBudget >= macPrice) {
 // };
 // writeAsync();
 
-const age = 100;
-const hadID = true;
+// const age = 100;
+// const hadID = true;
 
 // const canVote = age >= 18 ? "you are voter" : "you are not voter";
 // console.log("Voter status", canVote);
